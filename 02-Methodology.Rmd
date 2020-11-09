@@ -4,9 +4,11 @@ The **lidR** package can be installed from CRAN or Github. The lidR package allo
 
 ## Control Dataset
 
-```{r ,message=FALSE,warning=FALSE}
+```{r load, message=FALSE,warning=FALSE}
+# ^ it's a good practice to name your R chunks.
 library(lidR)
-las <- readLAS("2-18-20-Correct.las")
+# need to commit the data file, perhaps in the `data/` folder?
+las <- readLAS("data/2-18-20-Correct.las")
 ```
 
 ```{r ,message=FALSE,warning=FALSE}
